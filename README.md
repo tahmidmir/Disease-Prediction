@@ -20,13 +20,33 @@ Easily deployable using Docker
 
 ### Backend
 
-```python
+
 #### Build the Docker image
+```python
 docker build -t disease-predictor .
 ```
 #### Run the container
+```python
 docker run -p 8000:8000 disease-predictor
+```
+### API Usage
+POST /predict
+#### Input:
 
+```json
+{
+  "symptoms": "fever, sore throat, fatigue"
+}
+```
+### Response:
+
+```json
+{
+  "enhanced_symptoms": "...",
+  "predicted_disease": "Influenza",
+  "treatment": "Rest, hydration, and over-the-counter medication"
+}
+```
 ## Tech Stack
 Python 3.10+
 
