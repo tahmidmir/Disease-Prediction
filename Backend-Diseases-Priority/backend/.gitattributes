@@ -1,0 +1,4 @@
+saved_models/static/* filter=lfs diff=lfs merge=lfs -text
+saved_models/biobert-base-cased-v1.1/* filter=lfs diff=lfs merge=lfs -text
+saved_models/biogpt/* filter=lfs diff=lfs merge=lfs -text
+saved_models/clinicalbert/* filter=lfs diff=lfs merge=lfs -text
