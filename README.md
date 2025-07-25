@@ -65,15 +65,15 @@ Docker
 The gradio.py file provides a beautiful and responsive web interface using Gradio.
 
 ### 🔑Key Features:
-Free-form symptom input (e.g., fever, cough, fatigue)
+1.  Free-form symptom input (e.g., fever, cough, fatigue)
 
-"Get Diagnosis" button to send data to the backend API
+2.  "Get Diagnosis" button to send data to the backend API
 
-Display of disease prediction and treatment suggestion
+3.  Display of disease prediction and treatment suggestion
 
-"Clear" button to reset the input/output
+4.  "Clear" button to reset the input/output
 
-Custom CSS styling for a polished UI look
+5.  Custom CSS styling for a polished UI look
 
 ### ⚙️ How it Works:
 User enters symptoms and clicks Get Diagnosis.
